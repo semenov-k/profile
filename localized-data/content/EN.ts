@@ -59,7 +59,7 @@ export const content: ILocalizedContent = {
           'Developed products for use within the company ' +
           '(contract tracking, unified authentication and authorization system). ' +
           'Later I was transferred to the team of payment services in the role of lead developer. ' +
-          'Together with the team he successfully implemented the integration of external systems, ' +
+          'Together with the team we successfully implemented the integration of external systems, ' +
           'as well as the development of a new architecture of payment services.',
         details: [
           'Development of technical prototypes.',
