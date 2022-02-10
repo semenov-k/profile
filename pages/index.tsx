@@ -1,10 +1,13 @@
 import React from "react";
 import Head from "next/head";
 import { DEFAULT_LOCALE } from "../localized-data";
+import { useRouter } from "next/router";
 
 const Index: React.FC = () => {
+  const router = useRouter();
+
   React.useEffect(() => {
-    window.location.replace(`/${DEFAULT_LOCALE}`);
+    router.replace(`/${DEFAULT_LOCALE}`);
   });
 
   return (
