@@ -1,16 +1,34 @@
-html,
+:root {
+  --accent-color: #fcb11c;
+  --text-color: #1a1a1a;
+
+  --paragraph-space: 8px;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Istok Web', sans-serif;
+  color: #1a1a1a;
+  line-height: 1.2em;
+}
+
+@page {
+  margin: 20mm;
+}
+
+strong {
+  font-weight: 600;
+}
+
+i {
+  font-style: italic;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--text-color);
 }
 
-* {
-  box-sizing: border-box;
+
+hr {
+  border: none;
+  border-top: 1px solid lightgray;
 }

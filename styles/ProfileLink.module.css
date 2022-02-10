@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container + .container {
+  margin-top: 8px;
+}
+
+.iconWrapper {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.showButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: var(--text-color);
+  padding: 0;
+  text-decoration: underline dashed;
+}

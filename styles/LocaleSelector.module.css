@@ -1,0 +1,23 @@
+.selector {
+  padding: 0 6px 6px 6px;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+@media print {
+  .selector {
+    display: none;
+  }
+}
+
+.activeLocale {
+  cursor: default;
+}
+
+.selector span {
+  display: inline-block;
+}
+
+.selector span + span {
+  margin-left: 4px;
+}

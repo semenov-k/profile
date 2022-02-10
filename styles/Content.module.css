@@ -1,0 +1,10 @@
+.content {
+  flex-grow: 1;
+  padding: 10px 30px 30px 30px;
+}
+
+@media print {
+  .content {
+    padding-top: 30px;
+  }
+}

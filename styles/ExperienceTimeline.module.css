@@ -1,0 +1,24 @@
+.timelineItem {
+  page-break-inside: avoid;
+}
+
+.timelineItem + .timelineItem {
+  margin-top: 30px;
+}
+
+.timelineContent {
+  border-right: 2px solid lightgray;
+  padding-right: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.lastUpdated {
+  font-size: 0.8em;
+  color: grey;
+}

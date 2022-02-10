@@ -1,0 +1,6 @@
+.layout {
+  width: 8.5in;
+
+  display: flex;
+  flex-direction: row;
+}
