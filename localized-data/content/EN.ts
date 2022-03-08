@@ -22,7 +22,7 @@ export const content: ILocalizedContent = {
     github: 'https://github.com/semenov-k',
     experienceDescription: '5+ years experience',
     aboutMe: [
-      'In my spare time, I develop pet-projects (from games to web-applications). ' +
+      'In my spare time, I develop home projects (from games to web-applications). ' +
       'I try to test all the latest technologies on them.',
       'I write code so that it is easy to test and scale.',
       'I love working with people who have something to learn.'
@@ -41,15 +41,15 @@ export const content: ILocalizedContent = {
       {
         companyName: 'SERVION',
         year: '2021 - 2022',
-        description: 'Was a CTO of a startup. Together with the team, developed a service ' +
+        description: 'Was a CTO of a small startup. Together with the team, developed a service ' +
           'for interaction with customers in the housing and utilities sector. ' +
           'We developed a platform for taking meter readings, accepting payments, ' +
           'and interacting with management organizations.',
         details: [
           'Designing the architecture and implementation of the key nodes of the system.',
           'Solving technical and implementation issues with the team.',
-          'Organization of business processes within development teams.',
-          'Formation and training of development teams.'
+          'Organization of business processes within development team.',
+          'Formation and training of development team.'
         ],
       },
       {
