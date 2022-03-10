@@ -80,7 +80,7 @@ export const content: ILocalizedContent = {
       },
       {
         companyName: 'BILLING ONLINE LTD',
-        year: '2015 - 2018',
+        year: '2016 - 2018',
         description: 'First job as a developer. Was engaged in the development and support of PHP-applications. ' +
         'Participated in the development of a billing and payment acceptance system.',
         details: [],
